@@ -1,4 +1,4 @@
 # ShimSuHyun
 Front-End study list
 
-JavaScript (JavaScript.md)
+[JavaScript] (JavaScript.md)
