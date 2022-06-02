@@ -152,7 +152,7 @@ console.log(foo); // 3. bar
     
     변수는 3단계에 걸쳐서 생성된다.
     
-    1. 선언 단계(Declaration phase) :  변수 객체(Variable Object)에 변수를 등록한다. 이 변수 객체는 [scope](JavaScript/Scope.md)가 참조하는 대상이 된다.
+    1. 선언 단계(Declaration phase) :  변수 객체(Variable Object)에 변수를 등록한다. 이 변수 객체는 [scope](Scope.md)가 참조하는 대상이 된다.
     2. 초기화 단계(Initialization phase) : 변수 객체에 등록된 변수를 메모리에 할당한다. 이 단계에서 변수는 undefined로 초기화된다.
     3. 할당 단계(Assignment phase) : undefined로 초기화된 변수에 실제 값을 할당한다.
     
