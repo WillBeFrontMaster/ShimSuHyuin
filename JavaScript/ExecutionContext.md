@@ -54,10 +54,11 @@ Variable Object 는 실행 컨텍스트의 프로퍼티이기 때문에 값을 �
 <br/>
 Variable Object 가 가리키는 객체는 아래와 같다.<br/>
 - 전역 컨텍스트의 경우
-  * Variable Object는 유일하며 최상위에 위치하고 모든 전역 변수, 전역 함수 등을 포함하는 <b>전역 객체 (Global Object, GO)</b>를 가리킨다. 전역 객체는 전역에 선언된 전역 변수와 전역 함수를 프로퍼티로 소유한다.
+  * Variable Object는 유일하며 최상위에 위치하고 모든 전역 변수, 전역 함수 등을 포함하는 <b>전역 객체 (Global Object, GO)</b>를 가리킨다. 전역 객체는 전역에 선언된 전역 변수와 전역 함수를 프로퍼티로 소유한다.<br/><br/>
+  <img src="https://poiemaweb.com/img/ec-vo-global.png" width="30%"/>
 - 함수 컨텍스트의 경우
-	* Variable Object는 <b>활성객체(Activation Object, AO)</b>를 가리키며 매개변수와 인수들의 정보를 배열의 형태로 담고 있는 객체인 arguments object가 추가된다.
-
+	* Variable Object는 <b>활성객체(Activation Object, AO)</b>를 가리키며 매개변수와 인수들의 정보를 배열의 형태로 담고 있는 객체인 arguments object가 추가된다.<br/><br/>
+	<img src="https://poiemaweb.com/img/ec-vo-foo.png" width="30%"/>
 >이해가... 안된다................
 
 
